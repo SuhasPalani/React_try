@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const Home = () => {
 
-   // let name='suhas';
+   // let name='suhas';;;
 
    const [name,setName]= useState('Suhas');
     const [age,setAge]= useState(25);
