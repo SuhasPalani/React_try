@@ -17,6 +17,12 @@ const Home = () => {
                     <p>Written By {blog.author}</p>
                 </div>
             ))}
+            {setBlogs.map((setblog) => (
+                <div className="blog-preview" key={setblog.id}>
+                    <h2>{setblog.title}</h2>
+                    <p>Written By {setblog.author}</p>
+                </div>
+            ))}
 
         </div>
     );
